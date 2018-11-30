@@ -11,7 +11,7 @@ target_dir: /tmp/backup
 # create users and password pair
 # to generate the encrypted password: mkpasswd --method=sha-512 password
 user_accounts:
-    - { user: username,    pass: $6$/LSSI/mKt$AuhndmeQEPpHrd3dY/sjgLhd0bjAbNQj2FerGMBx97Gxsqi4kGQCqH7AEaDxl9aLOQ6Kxdzi7g621i7fQ.GiN. }
+    - { user: username,    pass: '$6$/LSSI/mKt$AuhndmeQEPpHrd3dY/sjgLhd0bjAbNQj2FerGMBx97Gxsqi4kGQCqH7AEaDxl9aLOQ6Kxdzi7g621i7fQ.GiN.' }
 
 # packing / unpacking datbase dump 
 # '!' will cause "gzip: stdout: Broken pipe" issue
